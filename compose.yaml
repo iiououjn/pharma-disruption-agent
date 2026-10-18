@@ -1,0 +1,17 @@
+services:
+  api:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      PDSIA_DB: /var/lib/pdsia/pdsia.db
+      PDSIA_API_TOKEN: ${PDSIA_API_TOKEN:?Set a long random PDSIA_API_TOKEN}
+      PDSIA_REVIEWER_ID: ${PDSIA_REVIEWER_ID:-local-api-reviewer}
+      PDSIA_ALLOW_DEMO_WRITES: ${PDSIA_ALLOW_DEMO_WRITES:-0}
+      PDSIA_ARCHIVE_DIR: /var/lib/pdsia/live
+      OPENFDA_API_KEY: ${OPENFDA_API_KEY:-}
+    volumes:
+      - pdsia-data:/var/lib/pdsia
+    restart: unless-stopped
+volumes:
+  pdsia-data:

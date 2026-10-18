@@ -1,0 +1,37 @@
+name: Daily FDA archive
+on:
+  schedule:
+    - cron: '25 7 * * *'  # 07:25 UTC; GitHub scheduled runs may be delayed
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: daily-openfda-archive
+  cancel-in-progress: false
+jobs:
+  pull-and-archive:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install package
+        run: python -m pip install -e .
+      - name: Fetch and archive LIVE US FDA records
+        env:
+          OPENFDA_API_KEY: ${{ secrets.OPENFDA_API_KEY }}
+        run: python -m pdsia_plus.cli --db daily-pull.db pull-live --archive-dir data/live
+      - name: Commit public raw snapshots if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/live
+          if ! git diff --cached --quiet; then
+            git commit -m "data: archive openFDA shortage snapshot $(date -u +%F)"
+            git push
+          fi

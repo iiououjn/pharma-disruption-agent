@@ -1,0 +1,7 @@
+# Base implementation has no mandatory runtime dependencies.
+# For the secured API + automated test workflow:
+fastapi>=0.110
+uvicorn>=0.29
+httpx>=0.27
+pytest>=8
+# Optional: pip install streamlit pandas langgraph 'psycopg[binary]>=3.2'

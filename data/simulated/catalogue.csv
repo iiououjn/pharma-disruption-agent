@@ -1,0 +1,22 @@
+sku,name,strength,dosage_form,ndcs,supplier,on_hand,daily_demand,open_order_qty,open_order_due_days,unit_cost,lead_time_days
+SKU-101,Metformin Hydrochloride,500 mg,"Tablet, Extended Release",99999-1010-01,Northwind Generics,3000,150,2000,10,0.08,28
+SKU-102,Metformin Hydrochloride,500 mg,Tablet,99999-1020-01,Northwind Generics,9000,200,0,0,0.05,14
+SKU-103,Amoxicillin,500 mg,Capsule,99999-1030-01,Harbor Pharma,4000,100,1000,5,0.10,14
+SKU-104,Cisplatin,1 mg/mL,Injection,99999-1040-01,Meridian Oncology Supply,252,21,120,30,18.50,21
+SKU-105,Methylphenidate Hydrochloride,36 mg,"Tablet, Extended Release",99999-1050-01,Capital Neuro Labs,900,25,0,0,0.90,30
+SKU-106,Lidocaine Hydrochloride,10 mg/mL,Injection,99999-1060-01,Lakeside Sterile Products,6000,80,0,0,0.60,14
+SKU-107,Lidocaine Hydrochloride and Epinephrine,10 mg/mL; 0.01 mg/mL,Injection,99999-1070-01,Lakeside Sterile Products,1500,30,0,0,1.10,21
+SKU-108,Sodium Chloride,9 mg/mL,Injection,99999-1080-01,Lakeside Sterile Products,20000,400,0,0,0.30,14
+SKU-109,Sodium Chloride,234 mg/mL,Injection,99999-1090-01,Lakeside Sterile Products,900,10,100,12,2.40,21
+SKU-110,Amoxicillin and Clavulanate Potassium,875 mg/125 mg,Tablet,99999-1100-01,Harbor Pharma,4000,100,0,0,0.45,14
+SKU-111,Ondansetron,2 mg/mL,Injection,99999-1110-01,Cobalt Sterile Inj,700,20,0,0,0.80,14
+SKU-112,Ondansetron Hydrochloride,4 mg,Tablet,99999-1120-01,Cobalt Sterile Inj,5000,60,0,0,0.12,14
+SKU-113,Bupivacaine Hydrochloride,5 mg/mL,Injection,99999-1130-01,Cobalt Sterile Inj,2000,40,0,0,0.95,14
+SKU-114,Heparin Sodium,"5,000 units/mL",Injection,99999-1140-01,Cobalt Sterile Inj,1200,30,0,0,3.20,21
+SKU-115,Atorvastatin Calcium,20 mg,Tablet,99999-1150-01,Northwind Generics,12000,300,0,0,0.07,14
+SKU-116,Epinephrine,1 mg/mL,Injection,99999-1160-01,Cobalt Sterile Inj,120,8,200,6,4.10,28
+SKU-117,Carboplatin,10 mg/mL,Injection,99999-1170-01,Meridian Oncology Supply,800,20,0,0,9.60,21
+SKU-118,Potassium Chloride,2 mEq/mL,Injection,99999-1180-01,Lakeside Sterile Products,1500,25,0,0,1.30,14
+SKU-119,Salbutamol Sulfate,0.83 mg/mL,Inhalation Solution,99999-1190-01,Eastgate Pharma,500,25,0,0,0.70,14
+SKU-120,Cefazolin Sodium,1 g,"Injection, Powder, for Solution",99999-1200-01,Harbor Pharma,2400,40,0,0,2.20,14
+SKU-121,Metoprolol Succinate,50 mg,"Tablet, Extended Release",99999-1210-01,Northwind Generics,6000,100,0,0,0.15,14

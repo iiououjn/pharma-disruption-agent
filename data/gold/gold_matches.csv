@@ -1,0 +1,32 @@
+record_key,sku,label,trap_type,note
+R-001,SKU-104,match,identifier,NDC identical and attributes agree
+R-002,SKU-117,match,ingredient_strength_form,
+R-003,SKU-101,match,ingredient_strength_form,ER metformin
+R-003,SKU-102,non_match,release_profile_trap,same ingredient/strength; ER vs immediate release
+R-019,SKU-101,match,duplicate_listing,second company listing of the same product
+R-019,SKU-102,non_match,release_profile_trap,ER vs immediate release
+R-004,SKU-103,non_match,dosage_form_trap,oral suspension vs capsule
+R-016,SKU-110,match,combination,two-ingredient product
+R-016,SKU-103,non_match,combination_vs_single,combination record vs single-agent SKU
+R-005,SKU-106,non_match,strength_trap,2% (20 mg/mL) vs 1% (10 mg/mL)
+R-005,SKU-107,non_match,combination_vs_single,single-agent record vs combination SKU
+R-006,SKU-107,match,combination,
+R-006,SKU-106,non_match,combination_vs_single,combination record vs single-agent SKU
+R-007,SKU-109,match,percent_conversion,23.4% = 234 mg/mL
+R-007,SKU-108,non_match,strength_trap,23.4% vs 0.9%
+R-007,SKU-118,non_match,shared_word_trap,sodium chloride vs potassium chloride
+R-008,SKU-105,match,ingredient_strength_form,
+R-009,SKU-111,uncertain,missing_strength,record has no strength: cannot be confirmed
+R-009,SKU-112,non_match,dosage_form_trap,injection vs tablet
+R-010,SKU-114,non_match,strength_trap,1000 vs 5000 units/mL
+R-011,SKU-119,match,synonym,albuterol = salbutamol; 0.083% = 0.83 mg/mL
+R-012,SKU-120,match,ingredient_strength_form,
+R-013,SKU-116,match,ingredient_strength_form,sparse source text
+R-015,SKU-113,non_match,strength_trap,0.25% vs 0.5%
+R-017,SKU-118,match,unit_meq,
+R-017,SKU-108,non_match,shared_word_trap,potassium chloride vs sodium chloride
+R-017,SKU-109,non_match,shared_word_trap,potassium chloride vs sodium chloride
+R-021,SKU-121,non_match,salt_and_release_trap,tartrate IR vs succinate ER
+R-004,SKU-110,non_match,combination_vs_single,amoxicillin suspension vs amoxicillin+clavulanate tablet
+R-006,SKU-116,non_match,combination_vs_single,lidocaine+epinephrine vs epinephrine alone
+R-013,SKU-107,non_match,combination_vs_single,epinephrine alone vs lidocaine+epinephrine

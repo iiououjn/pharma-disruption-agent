@@ -1,0 +1,353 @@
+{
+ "meta": {
+  "synthetic": true,
+  "label": "SYNTHETIC snapshot 2",
+  "fetched_at": "2026-10-18T08:00:00+00:00",
+  "note": "Invented records shaped like openFDA drug-shortage results. Not real FDA data."
+ },
+ "results": [
+  {
+   "fixture_id": "R-001",
+   "generic_name": "Cisplatin Injection",
+   "company_name": "Meridian Oncology Supply",
+   "dosage_form": "Injection, Solution",
+   "strength": [
+    "1 mg/mL"
+   ],
+   "status": "Current",
+   "availability": "Allocated to existing customers only.",
+   "shortage_reason": "Manufacturing delay",
+   "package_ndc": [
+    "99999-1040-01"
+   ],
+   "presentation": "",
+   "related_info": "",
+   "update_date": "10/01/2026",
+   "resolved_note": "",
+   "update_type": "Revised",
+   "initial_posting_date": "09/01/2026"
+  },
+  {
+   "fixture_id": "R-003",
+   "generic_name": "Metformin Hydrochloride Tablet, Extended Release",
+   "company_name": "Northwind Generics",
+   "dosage_form": "Tablet, Extended Release",
+   "strength": [
+    "500 mg"
+   ],
+   "status": "Current",
+   "availability": "Limited supply.",
+   "shortage_reason": "Increased demand",
+   "package_ndc": [],
+   "presentation": "",
+   "related_info": "",
+   "update_date": "10/01/2026",
+   "resolved_note": "",
+   "update_type": "Revised",
+   "initial_posting_date": "09/01/2026"
+  },
+  {
+   "fixture_id": "R-004",
+   "generic_name": "Amoxicillin Powder for Oral Suspension",
+   "company_name": "Harbor Pharma",
+   "dosage_form": "Powder, for Suspension",
+   "strength": [
+    "250 mg/5 mL"
+   ],
+   "status": "Current",
+   "availability": "Intermittent backorders.",
+   "shortage_reason": "Increased demand",
+   "package_ndc": [],
+   "presentation": "",
+   "related_info": "",
+   "update_date": "10/01/2026",
+   "resolved_note": "",
+   "update_type": "Revised",
+   "initial_posting_date": "09/01/2026"
+  },
+  {
+   "fixture_id": "R-005",
+   "generic_name": "Lidocaine Hydrochloride Injection",
+   "company_name": "Lakeside Sterile Products",
+   "dosage_form": "Injection, Solution",
+   "strength": [
+    "20 mg/mL"
+   ],
+   "status": "Current",
+   "availability": "Allocated.",
+   "shortage_reason": "Manufacturing delay",
+   "package_ndc": [],
+   "presentation": "",
+   "related_info": "",
+   "update_date": "10/01/2026",
+   "resolved_note": "",
+   "update_type": "Revised",
+   "initial_posting_date": "09/01/2026"
+  },
+  {
+   "fixture_id": "R-006",
+   "generic_name": "Lidocaine Hydrochloride and Epinephrine Injection",
+   "company_name": "Lakeside Sterile Products",
+   "dosage_form": "Injection, Solution",
+   "strength": [
+    "10 mg/mL",
+    "0.01 mg/mL"
+   ],
+   "status": "Current",
+   "availability": "Limited supply.",
+   "shortage_reason": "Raw material shortage",
+   "package_ndc": [],
+   "presentation": "",
+   "related_info": "",
+   "update_date": "10/01/2026",
+   "resolved_note": "",
+   "update_type": "Revised",
+   "initial_posting_date": "09/01/2026"
+  },
+  {
+   "fixture_id": "R-007",
+   "generic_name": "Sodium Chloride Injection",
+   "company_name": "Lakeside Sterile Products",
+   "dosage_form": "Injection, Solution",
+   "strength": [
+    "23.4%"
+   ],
+   "status": "To Be Discontinued",
+   "availability": "Limited supply.",
+   "shortage_reason": "Manufacturing delay",
+   "package_ndc": [],
+   "presentation": "",
+   "related_info": "",
+   "update_date": "10/01/2026",
+   "resolved_note": "",
+   "update_type": "Revised",
+   "initial_posting_date": "09/01/2026"
+  },
+  {
+   "fixture_id": "R-008",
+   "generic_name": "Methylphenidate Hydrochloride Tablet, Extended Release",
+   "company_name": "Capital Neuro Labs",
+   "dosage_form": "Tablet, Extended Release",
+   "strength": [
+    "36 mg"
+   ],
+   "status": "Current",
+   "availability": "Limited availability; supplier indicates recovery in Q1 2027 (unconfirmed).",
+   "shortage_reason": "Increased demand",
+   "package_ndc": [],
+   "presentation": "",
+   "related_info": "",
+   "update_date": "10/01/2026",
+   "resolved_note": "",
+   "update_type": "Revised",
+   "initial_posting_date": "09/01/2026"
+  },
+  {
+   "fixture_id": "R-009",
+   "generic_name": "Ondansetron Injection",
+   "company_name": "Cobalt Sterile Inj",
+   "dosage_form": "Injection, Solution",
+   "strength": [],
+   "status": "Current",
+   "availability": "Limited supply.",
+   "shortage_reason": "Manufacturing delay",
+   "package_ndc": [],
+   "presentation": "",
+   "related_info": "",
+   "update_date": "10/01/2026",
+   "resolved_note": "",
+   "update_type": "Revised",
+   "initial_posting_date": "09/01/2026"
+  },
+  {
+   "fixture_id": "R-010",
+   "generic_name": "Heparin Sodium Injection",
+   "company_name": "Cobalt Sterile Inj",
+   "dosage_form": "Injection, Solution",
+   "strength": [
+    "1,000 units/mL"
+   ],
+   "status": "Current",
+   "availability": "Limited supply.",
+   "shortage_reason": "Raw material shortage",
+   "package_ndc": [],
+   "presentation": "",
+   "related_info": "",
+   "update_date": "10/01/2026",
+   "resolved_note": "",
+   "update_type": "Revised",
+   "initial_posting_date": "09/01/2026"
+  },
+  {
+   "fixture_id": "R-011",
+   "generic_name": "Albuterol Sulfate Inhalation Solution",
+   "company_name": "Eastgate Pharma",
+   "dosage_form": "Inhalation Solution",
+   "strength": [
+    "0.083%"
+   ],
+   "status": "Current",
+   "availability": "  limited   supply. ",
+   "shortage_reason": "Increased demand",
+   "package_ndc": [],
+   "presentation": "",
+   "related_info": "",
+   "update_date": "10/01/2026",
+   "resolved_note": "",
+   "update_type": "Revised",
+   "initial_posting_date": "09/01/2026"
+  },
+  {
+   "fixture_id": "R-012",
+   "generic_name": "Cefazolin Sodium Injection",
+   "company_name": "Harbor Pharma",
+   "dosage_form": "Injection, Powder, for Solution",
+   "strength": [
+    "1 g"
+   ],
+   "status": "Resolved",
+   "availability": "Limited supply.",
+   "shortage_reason": "Manufacturing delay",
+   "package_ndc": [],
+   "presentation": "",
+   "related_info": "",
+   "update_date": "10/01/2026",
+   "resolved_note": "",
+   "update_type": "Revised",
+   "initial_posting_date": "09/01/2026"
+  },
+  {
+   "fixture_id": "R-015",
+   "generic_name": "Bupivacaine Hydrochloride Injection",
+   "company_name": "Cobalt Sterile Inj",
+   "dosage_form": "Injection, Solution",
+   "strength": [
+    "2.5 mg/mL"
+   ],
+   "status": "Current",
+   "availability": "Limited supply.",
+   "shortage_reason": "Manufacturing delay",
+   "package_ndc": [],
+   "presentation": "",
+   "related_info": "",
+   "update_date": "10/01/2026",
+   "resolved_note": "",
+   "update_type": "Revised",
+   "initial_posting_date": "09/01/2026"
+  },
+  {
+   "fixture_id": "R-016",
+   "generic_name": "Amoxicillin and Clavulanate Potassium Tablet",
+   "company_name": "Harbor Pharma",
+   "dosage_form": "Tablet, Film Coated",
+   "strength": [
+    "875 mg/125 mg"
+   ],
+   "status": "Current",
+   "availability": "Limited supply.",
+   "shortage_reason": "Increased demand",
+   "package_ndc": [],
+   "presentation": "",
+   "related_info": "",
+   "update_date": "10/01/2026",
+   "resolved_note": "",
+   "update_type": "Revised",
+   "initial_posting_date": "09/01/2026"
+  },
+  {
+   "fixture_id": "R-021",
+   "generic_name": "Metoprolol Tartrate Tablet",
+   "company_name": "Northwind Generics",
+   "dosage_form": "Tablet",
+   "strength": [
+    "50 mg"
+   ],
+   "status": "Current",
+   "availability": "Limited supply.",
+   "shortage_reason": "Increased demand",
+   "package_ndc": [],
+   "presentation": "",
+   "related_info": "",
+   "update_date": "10/01/2026",
+   "resolved_note": "",
+   "update_type": "Revised",
+   "initial_posting_date": "09/01/2026"
+  },
+  {
+   "fixture_id": "R-002",
+   "generic_name": "Carboplatin Injection",
+   "company_name": "Meridian Oncology Supply",
+   "dosage_form": "Injection, Solution",
+   "strength": [
+    "10 mg/mL"
+   ],
+   "status": "Current",
+   "availability": "Limited supply.",
+   "shortage_reason": "Manufacturing delay",
+   "package_ndc": [],
+   "presentation": "",
+   "related_info": "",
+   "update_date": "10/01/2026",
+   "resolved_note": "",
+   "update_type": "Revised",
+   "initial_posting_date": "09/01/2026"
+  },
+  {
+   "fixture_id": "R-013",
+   "generic_name": "Epinephrine Injection",
+   "company_name": "Lakeside Sterile Products",
+   "dosage_form": "Injection, Solution",
+   "strength": [
+    "1 mg/mL"
+   ],
+   "status": "Current",
+   "availability": "",
+   "shortage_reason": "",
+   "package_ndc": [],
+   "presentation": "",
+   "related_info": "",
+   "update_date": "10/01/2026",
+   "resolved_note": "",
+   "update_type": "Revised",
+   "initial_posting_date": "09/01/2026"
+  },
+  {
+   "fixture_id": "R-014",
+   "generic_name": "Vancomycin Injection",
+   "company_name": "Eastgate Pharma",
+   "dosage_form": "Injection, Powder, for Solution",
+   "strength": [
+    "1 g"
+   ],
+   "status": "Current",
+   "availability": "Limited supply.",
+   "shortage_reason": "Increased demand",
+   "package_ndc": [],
+   "presentation": "",
+   "related_info": "",
+   "update_date": "10/01/2026",
+   "resolved_note": "",
+   "update_type": "Revised",
+   "initial_posting_date": "09/01/2026"
+  },
+  {
+   "fixture_id": "R-019",
+   "generic_name": "Metformin Hydrochloride Tablet, Extended Release",
+   "company_name": "Eastgate Pharma",
+   "dosage_form": "Tablet, Extended Release",
+   "strength": [
+    "500 mg"
+   ],
+   "status": "Current",
+   "availability": "Limited supply.",
+   "shortage_reason": "Increased demand",
+   "package_ndc": [],
+   "presentation": "",
+   "related_info": "",
+   "update_date": "10/01/2026",
+   "resolved_note": "",
+   "update_type": "Revised",
+   "initial_posting_date": "09/01/2026"
+  }
+ ]
+}

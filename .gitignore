@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.db
+.venv/
+data/simulated/catalogue_generated.csv
+data/gold/gold_generated.csv

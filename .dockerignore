@@ -1,0 +1,12 @@
+.git
+.github
+.venv
+__pycache__
+*.pyc
+*.db
+*.sqlite*
+.env
+data/live
+*.zip
+tests
+tests_ext

@@ -1,0 +1,8 @@
+# Core package and the whole offline demo/test suite need NOTHING beyond the Python 3.10+ standard library.
+# Optional layers:
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2
+streamlit>=1.33
+pandas>=2.0
+langgraph>=0.2
